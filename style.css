@@ -1,5 +1,11 @@
+ html{
+     overflow-x: hidden;
+     
+ }
  body{
      background:white;
+     cursor: url(img/pointer3.png) 4 12 !important, auto;
+     
  }
     h2{
         background-color: rgb(38, 1, 1);
@@ -32,16 +38,19 @@
     }
     button{
         width: 100%;
+        
         background-color: rgb(40, 5, 5);
         color: rgb(238, 210, 210);
         border: 0cm;
         height: 10vh;   
         justify-content: center;
         align-items: center;
+        transition: transform 500ms, opacity 400ms;
     }
         
         button:hover{
             background-color: black;
+            
         }
     
     a {
@@ -49,36 +58,43 @@
         text-decoration: none;
         background-color: transparent;
     }
-
+ 
+    
     #action:hover{
         background-image: url(img/gun\ \(1\).jpg);
         background-size: 21vw 12vh;
         color: white;
+        transform: scale(1.05);
+        opacity:5;
         
     }
     #horror:hover{
         background-image: url(img/TO\ POST\ OCT\ 31\ EHM\ horror\ image.jpg);
         background-size: 100%;
         color: black;
-        
+        transform: scale(1.05);
+        opacity:100;
     }
     #anime:hover{
         background-image: url(img/1fTa.gif);
         background-size:20vw 10vh ;
         color: red;
-        
+        transform: scale(1.05);
+        opacity:100;
       
     }
     #comedy:hover{
         background-image: url(img/mr\ bean.jpg);
         background-size:20vw 10vh ;
         color: black;
-      
+        transform: scale(1.05);
+        opacity:100;
     }
 
     #batman-image{
         width: 12vw;
-        hight: 15vh
+        
+        
     }
     h4{
         font-family: 'Courier New', Courier, monospace;
@@ -92,6 +108,8 @@
     #romance:hover{
         background-image: url(img/romantic.jpg);
         background-size: 20vw 10vh;
+        transform: scale(1.05);
+        opacity:100;
     }
     #the-moon-knight{
         background-color: rgb(230, 227, 224) !important;
@@ -100,6 +118,15 @@
     }
     #the-lost-city{
         background-color: rgb(190, 51, 49) !important;
+        
+    }
+    #video{
+        transition: transform 500ms, opacity 400ms, background-color 2s;
+
+    }
+    #video:hover{
+        transform: scale(1.05);
+        opacity:100;
         
     }
         
