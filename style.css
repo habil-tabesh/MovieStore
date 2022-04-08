@@ -12,6 +12,8 @@
         font-size: 80px;
         color: white;
         height: 7vh;
+        text-align: center;
+        justify-content: center;
     }
     nav{
         position: sticky;
@@ -45,7 +47,7 @@
         height: 10vh;   
         justify-content: center;
         align-items: center;
-        transition: transform 500ms, opacity 400ms;
+        transition: transform 200ms, opacity 400ms;
     }
         
         button:hover{
@@ -70,7 +72,7 @@
     }
     #horror:hover{
         background-image: url(img/TO\ POST\ OCT\ 31\ EHM\ horror\ image.jpg);
-        background-size: 100%;
+        background-size: 20vw 10vh;
         color: black;
         transform: scale(1.05);
         opacity:100;
